@@ -5,7 +5,7 @@ This works only with docker >= 17.05
 ## Build container
 
 ```
-git@github.com:toshke/docker-multistage-test.git
+git clone git@github.com:toshke/docker-multistage-test.git
 cd docker-multistage-test
 docker build -t helloworld:multistage .
 
